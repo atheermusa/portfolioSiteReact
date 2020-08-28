@@ -1,6 +1,7 @@
 import React from "react"
 import '../styles/projects.css';
 import Thumbnail from './Thumbnail.js';
+
  
 function Projects(props) {
   return (
@@ -56,6 +57,7 @@ function Projects(props) {
         category="AR/VR/XR"
       />
       </div>
+
     </div>
   )
 }

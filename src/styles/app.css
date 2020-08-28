@@ -14,7 +14,7 @@
 }
 
 .dark-mode #bulb_body:hover {
-    fill: none;
+    fill: #1a1919;
 }
 
 .dark-mode .navlink {

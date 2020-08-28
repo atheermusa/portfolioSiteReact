@@ -4,9 +4,9 @@ import '../styles/about.css';
 function About(props) {
   return (
     <div className="about">
-       <h2>About Me</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-      irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+       <h2 className="aboutTitle">About Me</h2>
+        <p className= "aboutProfile">Whether it’s building Augmented reality projects, coding away at a hackathon or hosting a weekly radio show about it,
+        my life always finds itself revolving around technology! One thing I enjoy doing most is diving in headfirst and taking on new challenges, learning new skills ranging from iOS development and Unity and now web development in the form of HTML, CSS and Javascript!</p>
       <br />
       <br />
       <div id="skills-experience">
