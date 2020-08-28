@@ -5,15 +5,17 @@ import './styles/app.css';
 
 class App extends Component {
   state = {
-   
+   setDarkMode: false
   };
   
+  darkModeToggle = () => this.setState(prevState => ({setDarkMode: !prevState.setDarkMode}));
+
   render(){
-    // const [darkMode, setDarkMode] = React.useState(false)
+
     return (
-      <div className="dark-mode">
+      <div className= {this.state.setDarkMode ? "dark-mode" : "light-mode"}>
         <header>
-          <NavBar />
+          <NavBar clickHandler={this.darkModeToggle}/>
           {/* <Title /> */}
         </header>
 

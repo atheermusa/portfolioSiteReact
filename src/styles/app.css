@@ -6,10 +6,15 @@
 .dark-mode {
     background-color: #1a1919;
     color: #999;
+    color: white;
 }
 
 .dark-mode #bulb_body {
     fill: yellow;
+}
+
+.dark-mode #bulb_body:hover {
+    fill: none;
 }
 
 .dark-mode .navlink {

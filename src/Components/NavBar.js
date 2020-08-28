@@ -5,13 +5,13 @@ import { ReactComponent as Logo } from '../Assets/logo.svg'
 
 
 
-const NavBar = () => {
+const NavBar = ({ clickHandler }) => {
     return (
         <div className= "container">
-            <div className="logoContainer">
-                <Link to="/">
+            <div className="logoContainer" onClick={clickHandler}>
+                {/* <Link to="/"> */}
                     <Logo />
-                </Link>
+                {/* </Link> */}
                 <p className="logoName">Atheer Musa</p>
             </div>
             <nav className="nav">
