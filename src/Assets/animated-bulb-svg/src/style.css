@@ -1,0 +1,12 @@
+svg {
+  transition: all .3s ease-in-out;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -96px;
+  margin-top: -96px;
+}
+
+body {
+  background-color: #f5f5f5;
+}
