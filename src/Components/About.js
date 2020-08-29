@@ -3,7 +3,7 @@ import '../styles/about.css';
  
 function About(props) {
   return (
-    <div className="about">
+    <div className="about animated animatedFadeInUp fadeInUp">
        <h2 className="aboutTitle">About Me</h2>
         <p className= "aboutProfile">Whether it’s building Augmented reality projects, coding away at a hackathon or hosting a weekly radio show about it,
         my life always finds itself revolving around technology! One thing I enjoy doing most is diving in headfirst and taking on new challenges, learning new skills ranging from iOS development and Unity and now web development in the form of HTML, CSS and Javascript!</p>

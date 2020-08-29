@@ -8,11 +8,13 @@ import { ReactComponent as Logo } from '../Assets/logo.svg'
 const NavBar = ({ clickHandler }) => {
     return (
         <div className= "container">
-            <div className="logoContainer" onClick={clickHandler}>
-                {/* <Link to="/"> */}
+            <div className="logoContainer">
+                <div onClick={clickHandler} >
                     <Logo />
-                {/* </Link> */}
-                <p className="logoName">Atheer Musa</p>
+                </div>
+                <Link to="/" className="logoName">
+                <p>Atheer Musa</p>
+                </Link>
             </div>
             <nav className="nav">
                 <NavLink className="navlink" activeClassName="current" to="/" href="about">Home</NavLink>

@@ -36,9 +36,6 @@ class App extends Component {
             </Switch>
           </section>
 
-          {/* <About />
-          <Projects />
-          <Articles /> */}
           
         </main>
       </div>
