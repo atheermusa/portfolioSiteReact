@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { NavBar, Title, NotFound404, About, Projects, Articles,  } from './Components';
+import { NavBar, Title, NotFound404, About, Projects, Articles, Footer } from './Components';
 import './styles/app.css';
 
 class App extends Component {
@@ -38,6 +38,7 @@ class App extends Component {
 
           
         </main>
+        <Footer />
       </div>
     );
   }
