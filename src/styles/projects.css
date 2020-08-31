@@ -16,5 +16,7 @@
 .thumbnailContainer {
     display: flex;
     flex-direction: row;
-    overflow-x: scroll;
+    width: 80%;
+    overflow-y: hidden;
+    overflow-x: auto;
 }
