@@ -41,19 +41,7 @@ export default class ProjectsContainer extends Component {
                         Title = "Quizolation"
                         Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac nulla sed lacus dictum luctus vel non nibh. Donec mollis fermentum lacus, a egestas augue tristique in. Fusce condimentum et diam at ullamcorper. Etiam at congue nunc. Etiam quis vestibulum erat. Integer ut urna mollis, hendrerit risus id, dictum tellus. Nunc eros metus, consequat in vehicula eu, sollicitudin in orci. Nullam interdum venenatis leo, ac ultrices libero hendrerit imperdiet. Aenean lacinia orci sed dignissim luctus. Aliquam eu ligula orci. Integer iaculis, augue in vehicula tempor, mi massa luctus odio, consectetur malesuada dui ligula eu sapien."
                         />
-                        ;
-                        case 5:
-                          return <Project 
-                          Title = "Project 5"
-                          Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac nulla sed lacus dictum luctus vel non nibh. Donec mollis fermentum lacus, a egestas augue tristique in. Fusce condimentum et diam at ullamcorper. Etiam at congue nunc. Etiam quis vestibulum erat. Integer ut urna mollis, hendrerit risus id, dictum tellus. Nunc eros metus, consequat in vehicula eu, sollicitudin in orci. Nullam interdum venenatis leo, ac ultrices libero hendrerit imperdiet. Aenean lacinia orci sed dignissim luctus. Aliquam eu ligula orci. Integer iaculis, augue in vehicula tempor, mi massa luctus odio, consectetur malesuada dui ligula eu sapien."
-                          />
-                          ;
-                          case 6:
-                            return <Project 
-                            Title = "Project 6"
-                            Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac nulla sed lacus dictum luctus vel non nibh. Donec mollis fermentum lacus, a egestas augue tristique in. Fusce condimentum et diam at ullamcorper. Etiam at congue nunc. Etiam quis vestibulum erat. Integer ut urna mollis, hendrerit risus id, dictum tellus. Nunc eros metus, consequat in vehicula eu, sollicitudin in orci. Nullam interdum venenatis leo, ac ultrices libero hendrerit imperdiet. Aenean lacinia orci sed dignissim luctus. Aliquam eu ligula orci. Integer iaculis, augue in vehicula tempor, mi massa luctus odio, consectetur malesuada dui ligula eu sapien."
-                            />
-                            ;                          
+                        ;                   
             default:
                return  <Project 
                Title = "No Project Selected"
@@ -103,20 +91,6 @@ export default class ProjectsContainer extends Component {
                 />
                 </div>
                 <div onClick={this.componentSelector(5)}>
-           <Thumbnail
-                  link="/ThreeJS"
-                  image="ig"
-                  title="Three JS"
-                  category="AR/VR/XR"
-                />
-                </div>
-                <div onClick={this.componentSelector(6)}>
-           <Thumbnail
-                  link="/ThreeJS"
-                  image="ig"
-                  title="Three JS"
-                  category="AR/VR/XR"
-                />
                 </div>                                
 
                     </div>
