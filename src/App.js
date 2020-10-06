@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { NavBar, Title, NotFound404, About, Projects, Articles, Footer } from './Components';
+import { NavBar, Title, NotFound404, About, Articles, Footer } from './Components';
+import { ProjectsContainer } from './Containers'
 import './styles/app.css';
 
 class App extends Component {
@@ -28,7 +29,7 @@ class App extends Component {
 
               <Route path="/about" component={About} />
 
-              <Route path="/projects" component={Projects} />
+              <Route path="/projects" component={ProjectsContainer} />
 
               <Route path="/articles" component={Articles} />
 

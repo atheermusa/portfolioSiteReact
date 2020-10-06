@@ -1,10 +1,10 @@
 import React, { Component } from "react"
 import '../styles/projects.css';
-import Thumbnail from './Thumbnail.js';
-import Project from './Project';
+import Thumbnail from '../Components/Thumbnail.js';
+import Project from '../Components/Project.js';
 
 
-export default class Projects extends Component {
+export default class ProjectsContainer extends Component {
 
     state  = {
         currentProject : ""
@@ -20,25 +20,25 @@ export default class Projects extends Component {
         switch (this.state.currentProject) {
             case 1:
                 return <Project 
-                Title = "Project 1"
+                Title = "Good Vibes Only"
                 Description = "This is a description for project one"
                 />
                 ;
                 case 2:
                     return <Project 
-                    Title = "Project 2"
+                    Title = "Apple a Day"
                     Description = "This is a description for project 2"
                     />
                     ;
                     case 3:
                       return <Project 
-                      Title = "Project 3"
+                      Title = "Captain's Log"
                       Description = "This is a description for project 3"
                       />
                       ;
                       case 4:
                         return <Project 
-                        Title = "Project 4"
+                        Title = "Quizolation"
                         Description = "This is a description for project 4"
                         />
                         ;
@@ -75,7 +75,7 @@ export default class Projects extends Component {
            <Thumbnail
                   link="/ThreeJS"
                   image="ig"
-                  title="Three JS"
+                  title="Good Vibes Only"
                   category="AR/VR/XR"
                 />
                 </div>
