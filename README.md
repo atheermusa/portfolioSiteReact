@@ -1,8 +1,6 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
 ## Potfolio Site
 
-This is the repository for my Portfolio site. Built with ReactJS.
+This is the repository for my Portfolio site. Built with ReactJS with the help of create-react-app.
 
 ### `npm start`
 
