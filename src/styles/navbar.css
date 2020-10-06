@@ -1,0 +1,68 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, Ubuntu;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  min-height: 8vh;
+  max-height: 5vh;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  width: 35%;
+}
+
+.navlink {
+  text-decoration: none;
+  color: #3D3D3D;
+  font-weight: 50rem;
+}
+
+.navlink:hover {
+  text-decoration: underline;
+}
+
+#bulb-svg {
+  min-height: 8vh;
+  width: 50px;
+  height: 150px;
+}
+
+#bulb_body:hover {
+  fill: yellow;
+}
+
+.logoContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 20%;
+}
+
+.logoName {
+  font-weight: 5rem;
+  text-decoration: none;
+  color: black;
+}
+
+.logoName:hover {
+  text-decoration: underline;
+}
+/*# sourceMappingURL=navbar.css.map */

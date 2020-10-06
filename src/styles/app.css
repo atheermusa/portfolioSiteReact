@@ -24,3 +24,7 @@
 .dark-mode .logoName {
     color: white;
 }
+
+#site-container{
+    height: 100vh;
+}

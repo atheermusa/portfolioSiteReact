@@ -2,33 +2,46 @@
     margin:0;
     padding: 0;
 }
-.about {
+#about-container {
     width: 100%;
-    height: 100vh;
+    height: 84vh;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr 4fr;
     /* justify-content: center;
     align-items: center; */
 }
 
 .aboutTitle {
-    font-size: 2rem;
+    font-size: 4rem;
+    align-self: center;
     font-weight: 300;
-    grid-row: 1;
+    padding-top: 10vh;
+    padding-left: 3vw;
+    grid-area: 1;
 }
 
 .aboutProfile {
-    align-self: end;
+    padding-top: 3vh;
+    padding-left: 3vw;
     width:50%;
-    grid-row: 1;
+    grid-area: 2 / 1 / auto / span 2;
+}
+
+.about-subtitle {
+    text-align: center;
+    font-size: 2rem;
+    padding: 0.5rem
 }
 
 #about-skills {
-    justify-self: end;
+    justify-self: center;
+    grid-area: 3;
 }
 
 #about-experience {
-    justify-self: start;
+    justify-self: center;
+    grid-area: 3;
 }
 
 @keyframes fadeInUp {

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Switch, Route } from 'react-router-dom';
-import { NavBar, Title, NotFound404, About, Projects, Articles, Footer } from './Components';
+import { NavBar, Title, NotFound404, About, Articles, Footer } from './Components';
+import { ProjectsContainer } from './Containers'
 import './styles/app.css';
 
 class App extends Component {
@@ -13,7 +14,7 @@ class App extends Component {
   render(){
 
     return (
-      <div className= {this.state.setDarkMode ? "dark-mode" : "light-mode"}>
+      <div className= {this.state.setDarkMode ? "dark-mode" : "light-mode"} id="site-container">
         <header>
           <NavBar clickHandler={this.darkModeToggle}/>
           {/* <Title /> */}
@@ -28,7 +29,7 @@ class App extends Component {
 
               <Route path="/about" component={About} />
 
-              <Route path="/projects" component={Projects} />
+              <Route path="/projects" component={ProjectsContainer} />
 
               <Route path="/articles" component={Articles} />
 
@@ -38,7 +39,9 @@ class App extends Component {
 
           
         </main>
+        <div id= "footer-container">
         <Footer />
+        </div>
       </div>
     );
   }

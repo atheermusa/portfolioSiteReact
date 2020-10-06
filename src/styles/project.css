@@ -1,0 +1,25 @@
+#project-container {
+    width: 100vw;
+    height: 75vh;
+    display: grid;
+    grid-template-rows: 1fr 3fr 3fr;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+#project-title {
+    grid-area: 1 / 1 / auto / span 2;
+    justify-self: flex-start;
+    text-align: initial;
+    padding-top: 1vh;
+    padding-left: 3vw;
+    font-size: 4em;
+}
+
+#project-description {
+    grid-area: 2 / 1 / auto / span 2;
+    justify-self: flex-start;
+    text-align: initial;
+    padding-top: 1vh;
+    padding-left: 3vw;
+    font-size: 1em;
+}
