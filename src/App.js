@@ -14,7 +14,7 @@ class App extends Component {
   render(){
 
     return (
-      <div className= {this.state.setDarkMode ? "dark-mode" : "light-mode"}>
+      <div className= {this.state.setDarkMode ? "dark-mode" : "light-mode"} id="site-container">
         <header>
           <NavBar clickHandler={this.darkModeToggle}/>
           {/* <Title /> */}
@@ -39,7 +39,9 @@ class App extends Component {
 
           
         </main>
+        <div id= "footer-container">
         <Footer />
+        </div>
       </div>
     );
   }
