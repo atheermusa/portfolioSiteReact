@@ -21,7 +21,7 @@ export default class ProjectsContainer extends Component {
             case 1:
                 return <Project 
                 Title = "Good Vibes Only"
-                Description = "This is a description for project one"
+                Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac nulla sed lacus dictum luctus vel non nibh. Donec mollis fermentum lacus, a egestas augue tristique in. Fusce condimentum et diam at ullamcorper. Etiam at congue nunc. Etiam quis vestibulum erat. Integer ut urna mollis, hendrerit risus id, dictum tellus. Nunc eros metus, consequat in vehicula eu, sollicitudin in orci. Nullam interdum venenatis leo, ac ultrices libero hendrerit imperdiet. Aenean lacinia orci sed dignissim luctus. Aliquam eu ligula orci. Integer iaculis, augue in vehicula tempor, mi massa luctus odio, consectetur malesuada dui ligula eu sapien."
                 />
                 ;
                 case 2:
@@ -76,22 +76,22 @@ export default class ProjectsContainer extends Component {
                   link="/ThreeJS"
                   image="ig"
                   title="Good Vibes Only"
-                  category="AR/VR/XR"
+                  category="HTML5/CSS/Express"
                 />
                 </div>
                 <div onClick={this.componentSelector(2)}>
            <Thumbnail
                   link="/ThreeJS"
                   image="ig"
-                  title="Three JS"
-                  category="AR/VR/XR"
+                  title="Apple a Day"
+                  category="PERN"
                 />
                 </div>
                 <div onClick={this.componentSelector(3)}>
            <Thumbnail
                   link="/ThreeJS"
                   image="ig"
-                  title="Three JS"
+                  title="Captain's Log"
                   category="AR/VR/XR"
                 />
                 </div>
@@ -99,7 +99,7 @@ export default class ProjectsContainer extends Component {
            <Thumbnail
                   link="/ThreeJS"
                   image="ig"
-                  title="Three JS"
+                  title="Quizolation"
                   category="AR/VR/XR"
                 />
                 </div>
