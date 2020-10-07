@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+main {
+    overflow-y: scroll;
+}
+
 .dark-mode {
     background-color: #1a1919;
     /* color: #999; */
