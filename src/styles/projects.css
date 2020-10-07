@@ -19,5 +19,6 @@
     justify-content: center;
     width: 80%;
     overflow-y: hidden;
-    overflow-x: auto;
+    overflow-x: none;
+    min-height: 80px;
 }

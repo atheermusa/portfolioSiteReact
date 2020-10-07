@@ -11,6 +11,7 @@
     align-items: center;
     min-height: 8vh;
     max-height: 5vh;
+    padding-top: 30vh;
   }
 
   .nav {
