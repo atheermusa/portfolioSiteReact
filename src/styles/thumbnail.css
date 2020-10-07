@@ -2,6 +2,7 @@
     padding: 10px;
     margin:10px ;
     height: 10vh;
+    min-width: 60px;
     background-color: #9999;
 }
 
