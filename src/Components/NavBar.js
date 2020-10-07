@@ -32,7 +32,7 @@ export default class NavBar extends Component {
                     <NavLink className="navlink" activeClassName="current" to="/" href="about" >Home</NavLink>
                     <NavLink className="navlink" activeClassName="current" to="/about" href="about">About</NavLink>
                     <NavLink className="navlink" activeClassName="current" to="/projects" href="projects">Projects</NavLink>
-                    <NavLink className="navlink" activeClassName="current" to="/articles">Articles</NavLink>
+                    {/* <NavLink className="navlink" activeClassName="current" to="/articles">Articles</NavLink> */}
                 </nav>
             </div>
         );
