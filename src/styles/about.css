@@ -6,7 +6,7 @@
     width: 100%;
     height: 84vh;
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 3fr;
     grid-template-rows: 1fr 2fr 4fr;
     /* justify-content: center;
     align-items: center; */
@@ -18,30 +18,35 @@
     font-weight: 300;
     padding-top: 10vh;
     padding-left: 3vw;
-    grid-area: 1;
+    grid-area: 1 / auto;
 }
 
 .aboutProfile {
     padding-top: 3vh;
     padding-left: 3vw;
     width:50%;
-    grid-area: 2 / 1 / auto / span 2;
+    grid-area: 2 / 1 / auto / span 3;
 }
 
 .about-subtitle {
-    text-align: center;
+    text-align: start;
     font-size: 2rem;
+    font-weight: 400;
+    text-decoration: underline;
     padding: 0.5rem
 }
 
 #about-skills {
-    justify-self: center;
-    grid-area: 3;
+    justify-self: flex-start;
+    grid-area: 3 / 1;
+    padding-left: 7vw;
 }
 
 #about-experience {
-    justify-self: center;
-    grid-area: 3;
+    justify-self: flex-end;
+    grid-area: 3 / 2;
+    text-align: start;
+    
 }
 
 @keyframes fadeInUp {

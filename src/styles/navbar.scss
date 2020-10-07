@@ -32,6 +32,8 @@
     min-height: 8vh;
     width: 50px;
     height: 150px;
+    // animation: shake 0.5s; 
+    // animation-iteration-count: 1; 
   }
 
 #bulb_body:hover {
@@ -52,4 +54,23 @@
 
 .logoName:hover {
   text-decoration: underline;
+}
+
+.shake {
+  animation: shake 0.2s; 
+  animation-iteration-count: 1;
+}
+
+@keyframes shake {
+  0% { transform: rotate(0deg); }
+  10% { transform: rotate(-15deg); }
+  20% { transform: rotate(+15deg); }
+  30% { transform: rotate(0deg); }
+  40% { transform: rotate(15deg); }
+  50% { transform: rotate(-15deg); }
+  60% { transform: rotate(0deg); }
+  70% { transform: rotate(-15deg); }
+  80% { transform: rotate(15deg); }
+  90% { transform: rotate(0deg); }
+  100% { transform: rotate(-15deg); }
 }

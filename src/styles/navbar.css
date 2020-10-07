@@ -65,4 +65,105 @@
 .logoName:hover {
   text-decoration: underline;
 }
+
+.shake {
+  -webkit-animation: shake 0.2s;
+          animation: shake 0.2s;
+  -webkit-animation-iteration-count: 1;
+          animation-iteration-count: 1;
+}
+
+@-webkit-keyframes shake {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  10% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  20% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  30% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  40% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  50% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  60% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  70% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  80% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  90% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+}
+
+@keyframes shake {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  10% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  20% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  30% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  40% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  50% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  60% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  70% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  80% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  90% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+}
 /*# sourceMappingURL=navbar.css.map */
