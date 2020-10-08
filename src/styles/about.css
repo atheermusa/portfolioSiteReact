@@ -57,6 +57,20 @@
     /* padding: 5vw; */
 }
 
+#about-cv {
+    grid-area: 3/4;
+    justify-self: center;
+    font-weight: 400;
+}
+
+#about-cv-link {
+    color: inherit;
+}
+
+#about-cv-link:hover {
+font-style: italic;
+}
+
 @keyframes fadeInUp {
     from {
         transform: translate3d(0,40px,0)

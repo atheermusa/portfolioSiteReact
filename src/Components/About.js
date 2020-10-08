@@ -33,6 +33,7 @@ function About(props) {
         <div id="about-video">
         <iframe title="Atheer Musa futureproof video" width="560" height="315" src="https://www.youtube.com/embed/MQ-CwXVIpdI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
         </div>
+        <h2 id="about-cv">CV can be found: <a id="about-cv-link" href="https://futureproof-jackson.netlify.app/cv_Atheer_Musa.adffbe7d.pdf" target="none">Here</a> </h2>
       </div>
   )
 }
