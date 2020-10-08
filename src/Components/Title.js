@@ -8,7 +8,7 @@ function Title(props) {
         <h1>Atheer Musa</h1>
       </div> */}
       <div className="titleDescription animated animatedFadeInUp fadeInUp">
-        <p className="titleOneline">Electronic Engineering with Management Graduate from Kings College London. Currently learning Full-Stack Web Development @futureproof.</p>
+        <p className="titleOneline">Electronic Engineering with Management Graduate from Kings College London. Recently completed Full-Stack Web Development bootcamp @futureproof.</p>
       </div>
     </div>
   )
