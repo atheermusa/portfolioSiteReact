@@ -1,0 +1,46 @@
+#project-img-container {
+    grid-area: 2 / 3;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 2fr 1fr 1fr 1fr 2fr;
+    width: 100%;
+}
+
+#project-img {
+    width: 100%;
+    grid-area: 1 /1/ span 6/ span 6;
+}
+
+.image-switcher-button {
+    cursor: pointer;
+    width: fit-content;
+    font-size: 3rem;
+}
+
+.image-switcher-button:hover {
+    font-weight: 600;
+}
+
+#previous-img {
+    grid-area: 3/ 1;
+}
+
+#next-img {
+    grid-area: 3 / 4;
+    justify-self: flex-end;
+}
+
+#project-img-counter {
+    text-align: end;
+    padding-right: 1vw;
+}
+#project-img-text-container {
+    grid-area: 5 / 1 / span 2 / span 4;
+    padding-top: 3vh;
+    background-color: rgba(211, 211, 211, 0.6);
+}
+
+#project-img-decription {
+    text-align: start;
+    padding-left: 1vw;
+}
