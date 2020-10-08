@@ -42,7 +42,7 @@ export default class ProjectsContainer extends Component {
                       Title = "Good Vibes"
                       Description = "Good Vibes (GV) was the first group project on the coding bootcamp (futureproof) I completed. GV sought to bring some positivity to an increasingly isolated society. Users can anonymously share text posts along with an accompanying GIF of their choosing, these posts range from positive messages, celebration of achievements or just a funny observation! Other users can react to a post by clicking one of the reaction emojis or leaving a comment of their own. "
                       Link = "https://github.com/atheermusa/fp_lap_1_portfolio_week"
-                      imgsrc = {["https://res.cloudinary.com/dl4pcxjxz/image/upload/v1602191101/Screenshot_2020-10-08_at_22.04.48_n6gh9j.png", "https://res.cloudinary.com/dl4pcxjxz/image/upload/v1602191197/Screenshot_2020-10-08_at_22.06.24_srjvj4.png","https://res.cloudinary.com/dl4pcxjxz/image/upload/v1602190954/Screenshot_2020-10-08_at_21.21.12_kidl0e.png"]}
+                      imgsrc = {["https://res.cloudinary.com/dl4pcxjxz/image/upload/v1602191101/Screenshot_2020-10-08_at_22.04.48_n6gh9j.png", "https://res.cloudinary.com/dl4pcxjxz/image/upload/v1602191197/Screenshot_2020-10-08_at_22.06.24_srjvj4.png","https://res.cloudinary.com/dl4pcxjxz/image/upload/v1602197593/Screenshot_2020-10-08_at_21.21.12_kidl0e.png"]}
                       imgdescription = {["screenshot showing logo styling, new post form and gif functionality", "screenshot showing a test post with a gif attatched, how it looks when a user reacts with an emoji and what the comment section looks like", "the test post made in the demonstration at the end of the project week"]}
                       />
                       ;
@@ -51,6 +51,8 @@ export default class ProjectsContainer extends Component {
                         Title = "Quizolation"
                         Description = "Quizolation is a direct response to lockdowns imposed by the COVID-19 pandemic. Having already been stuck indoors for weeks, Quizolation offers a fresh alternative to the heavily-used and very argument prone board games stowed away in a cupboard. Using this application teams of up to four players can compete in a timed trivia game. Users can select from over 20 categories and will be able to set the number of questions per game. "
                         Link = "https://github.com/atheermusa/quizolation"
+                        imgsrc = {["https://res.cloudinary.com/dl4pcxjxz/image/upload/v1602197791/image_nurjrz.png", "https://res.cloudinary.com/dl4pcxjxz/image/upload/v1602191197/Screenshot_2020-10-08_at_22.06.24_srjvj4.png","https://res.cloudinary.com/dl4pcxjxz/image/upload/v1602197593/Screenshot_2020-10-08_at_21.21.12_kidl0e.png"]}
+                        imgdescription = {["screenshot showing logo styling, new post form and gif functionality", "screenshot showing a test post with a gif attatched, how it looks when a user reacts with an emoji and what the comment section looks like", "the test post made in the demonstration at the end of the project week"]}
                         />
                         ;                   
             default:

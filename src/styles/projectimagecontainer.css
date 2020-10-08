@@ -15,6 +15,7 @@
     cursor: pointer;
     width: fit-content;
     font-size: 3rem;
+    color: #1a1919 ;
 }
 
 .image-switcher-button:hover {
