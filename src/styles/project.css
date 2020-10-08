@@ -20,6 +20,25 @@
     justify-self: flex-start;
     text-align: initial;
     padding-top: 1vh;
+    padding-bottom: 2vh;
     padding-left: 3vw;
     font-size: 1em;
+}
+
+#project-github {
+    grid-area: 2/1;
+    justify-self: flex-start;
+    align-self:center;
+    padding-top: 2vh;
+    text-align: start;
+    padding-left: 3vw;
+}
+
+#project-github-link {
+    text-decoration: none;
+    color: inherit;
+}
+
+#project-github-link:hover {
+    text-decoration: underline;
 }

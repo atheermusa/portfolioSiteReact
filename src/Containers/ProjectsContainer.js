@@ -22,30 +22,35 @@ export default class ProjectsContainer extends Component {
                 return <Project 
                 Title = "Captain's Log"
                 Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac nulla sed lacus dictum luctus vel non nibh. Donec mollis fermentum lacus, a egestas augue tristique in. Fusce condimentum et diam at ullamcorper. Etiam at congue nunc. Etiam quis vestibulum erat. Integer ut urna mollis, hendrerit risus id, dictum tellus. Nunc eros metus, consequat in vehicula eu, sollicitudin in orci. Nullam interdum venenatis leo, ac ultrices libero hendrerit imperdiet. Aenean lacinia orci sed dignissim luctus. Aliquam eu ligula orci. Integer iaculis, augue in vehicula tempor, mi massa luctus odio, consectetur malesuada dui ligula eu sapien."
+                Link = "https://github.com/atheermusa/captains-log"
                 />
                 ;
                 case 2:
                     return <Project 
                     Title = "Apple a Day"
                     Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac nulla sed lacus dictum luctus vel non nibh. Donec mollis fermentum lacus, a egestas augue tristique in. Fusce condimentum et diam at ullamcorper. Etiam at congue nunc. Etiam quis vestibulum erat. Integer ut urna mollis, hendrerit risus id, dictum tellus. Nunc eros metus, consequat in vehicula eu, sollicitudin in orci. Nullam interdum venenatis leo, ac ultrices libero hendrerit imperdiet. Aenean lacinia orci sed dignissim luctus. Aliquam eu ligula orci. Integer iaculis, augue in vehicula tempor, mi massa luctus odio, consectetur malesuada dui ligula eu sapien."
+                    Link = "https://github.com/atheermusa/LAP-3-App"
                     />
                     ;
                     case 3:
                       return <Project 
                       Title = "Good Vibes Only"
                       Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac nulla sed lacus dictum luctus vel non nibh. Donec mollis fermentum lacus, a egestas augue tristique in. Fusce condimentum et diam at ullamcorper. Etiam at congue nunc. Etiam quis vestibulum erat. Integer ut urna mollis, hendrerit risus id, dictum tellus. Nunc eros metus, consequat in vehicula eu, sollicitudin in orci. Nullam interdum venenatis leo, ac ultrices libero hendrerit imperdiet. Aenean lacinia orci sed dignissim luctus. Aliquam eu ligula orci. Integer iaculis, augue in vehicula tempor, mi massa luctus odio, consectetur malesuada dui ligula eu sapien."
+                      Link = "https://github.com/atheermusa/fp_lap_1_portfolio_week"
                       />
                       ;
                       case 4:
                         return <Project 
                         Title = "Quizolation"
                         Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac nulla sed lacus dictum luctus vel non nibh. Donec mollis fermentum lacus, a egestas augue tristique in. Fusce condimentum et diam at ullamcorper. Etiam at congue nunc. Etiam quis vestibulum erat. Integer ut urna mollis, hendrerit risus id, dictum tellus. Nunc eros metus, consequat in vehicula eu, sollicitudin in orci. Nullam interdum venenatis leo, ac ultrices libero hendrerit imperdiet. Aenean lacinia orci sed dignissim luctus. Aliquam eu ligula orci. Integer iaculis, augue in vehicula tempor, mi massa luctus odio, consectetur malesuada dui ligula eu sapien."
+                        Link = "https://github.com/atheermusa/quizolation"
                         />
                         ;                   
             default:
                return  <Project 
                Title = "Captain's Log"
                Description = "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac nulla sed lacus dictum luctus vel non nibh. Donec mollis fermentum lacus, a egestas augue tristique in. Fusce condimentum et diam at ullamcorper. Etiam at congue nunc. Etiam quis vestibulum erat. Integer ut urna mollis, hendrerit risus id, dictum tellus. Nunc eros metus, consequat in vehicula eu, sollicitudin in orci. Nullam interdum venenatis leo, ac ultrices libero hendrerit imperdiet. Aenean lacinia orci sed dignissim luctus. Aliquam eu ligula orci. Integer iaculis, augue in vehicula tempor, mi massa luctus odio, consectetur malesuada dui ligula eu sapien."
+               Link = "https://github.com/atheermusa/captains-log"
                />
                 ;
         }   
