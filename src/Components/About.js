@@ -30,6 +30,9 @@ function About(props) {
               <li>Trainee Full-Stack Dev @ FutureProof</li>
             </ul>
         </div>
+        <div id="about-video">
+        <iframe title="Atheer Musa futureproof video" width="560" height="315" src="https://www.youtube.com/embed/MQ-CwXVIpdI" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
       </div>
   )
 }
