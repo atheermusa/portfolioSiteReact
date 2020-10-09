@@ -3,8 +3,6 @@ import "../styles/projectimagecontainer.css"
 
 export default class ProjectImageContainer extends Component {
 
-
-
     state = {
         imgsrc : this.props.imgsrc,
         currentImgSrc : `${this.props.imgsrc[0]}`,

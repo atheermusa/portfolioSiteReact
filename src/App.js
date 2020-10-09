@@ -18,6 +18,7 @@ class App extends Component {
 const numBalls = 50;
 const balls = [];
 
+
 for (let i = 0; i < numBalls; i++) {
   let ball = document.createElement("div");
   ball.classList.add("ball");
