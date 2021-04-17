@@ -1,112 +1,112 @@
 * {
-    margin:0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
-#about-container {
-    width: 100%;
-    height: 84vh;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 3fr;
-    grid-template-rows: 1fr 2fr 4fr;
-    overflow-y: scroll;
-    /* justify-content: center;
-    align-items: center; */
+#section-container {
+  width: 100%;
+  height: 84vh;
+  display: flex;
+  flex-direction: column;
+}
+
+#content-container {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+  align-self: center;
+}
+
+#title-container {
+  width: 80%;
+  padding-top: 10vh;
+  padding-left: 3vw;
+  align-self: center;
 }
 
 .aboutTitle {
-    font-size: 4rem;
-    align-self: center;
-    font-weight: 300;
-    padding-top: 10vh;
-    padding-left: 3vw;
-    grid-area: 1 / auto;
+  font-size: 4rem;
+  font-weight: 300;
 }
 
 .aboutProfile {
-    padding-top: 3vh;
-    padding-left: 3vw;
-    width:80%;
-    grid-area: 2 / 1 / auto / span 3;
+  padding-top: 3vh;
+  padding-left: 3vw;
+  width: 40%;
 }
 
 .about-subtitle {
-    text-align: start;
-    font-size: 2rem;
-    font-weight: 400;
-    text-decoration: underline;
-    padding: 0.5rem
+  text-align: start;
+  font-size: 2rem;
+  font-weight: 400;
+  text-decoration: underline;
+  padding: 0.5rem;
 }
 
 #about-skills {
-    justify-self: flex-start;
-    grid-area: 3 / 1;
-    padding-left: 7vw;
-    min-height: 300px;
+  padding-left: 7vw;
+  min-height: 300px;
 }
 
 #about-experience {
-    justify-self: flex-end;
-    grid-area: 3 / 2;
-    text-align: start;
-    min-height: 300px;
-    padding-left: 3vw;
+  text-align: start;
+  min-height: 300px;
+  padding-left: 3vw;
 }
 
-#about-video {
-    grid-area: 2/4;
-    justify-self:center;
-    /* padding: 5vw; */
+#cv-container {
+  width: 80%;
+  align-self: center;
 }
 
 #about-cv {
-    grid-area: 3/4;
-    justify-self: center;
-    font-weight: 400;
+  font-weight: 400;
+  padding-top: 2vh;
+  padding-left: 3vw;
 }
 
 #about-cv-link {
-    color: inherit;
+  color: inherit;
 }
 
 #about-cv-link:hover {
-font-style: italic;
+  font-style: italic;
 }
 
 @keyframes fadeInUp {
-    from {
-        transform: translate3d(0,40px,0)
-    }
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
 
-    to {
-        transform: translate3d(0,0,0);
-        opacity: 1
-    }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
 }
 
 @-webkit-keyframes fadeInUp {
-    from {
-        transform: translate3d(0,40px,0)
-    }
+  from {
+    transform: translate3d(0, 40px, 0);
+  }
 
-    to {
-        transform: translate3d(0,0,0);
-        opacity: 1
-    }
+  to {
+    transform: translate3d(0, 0, 0);
+    opacity: 1;
+  }
 }
 
 .animated {
-    animation-duration: 0.5s;
-    animation-fill-mode: both;
-    -webkit-animation-duration: 0.5s;
-    -webkit-animation-fill-mode: both
+  animation-duration: 0.5s;
+  animation-fill-mode: both;
+  -webkit-animation-duration: 0.5s;
+  -webkit-animation-fill-mode: both;
 }
 
 .animatedFadeInUp {
-    opacity: 0
+  opacity: 0;
 }
 
 .fadeInUp {
-    opacity: 0;
-    animation-name: fadeInUp;
-    -webkit-animation-name: fadeInUp;
+  opacity: 0;
+  animation-name: fadeInUp;
+  -webkit-animation-name: fadeInUp;
 }
