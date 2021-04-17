@@ -34,6 +34,8 @@ function About(props) {
             <ul>
               <li>KCL Electronic Engineering with Management Grad</li>
               <li>Trainee Full-Stack Dev @ FutureProof</li>
+              <li>Junior Software Engineer @ Zego</li>
+
             </ul>
         </div>
         <div id="about-video">
